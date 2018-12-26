@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drink3"
+    android:collapseColumns="*">
+
+
+    <Button
+        android:id="@+id/btntotal"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_x="228dp"
+        android:layout_y="512dp"
+        android:background="#FF6347"
+        android:text="今日銷售"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <Button
+        android:id="@+id/btnCheckout"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_x="61dp"
+        android:layout_y="511dp"
+        android:background="#FF6347"
+        android:text="結帳"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <Button
+        android:id="@+id/btnBlackTea"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_x="43dp"
+        android:layout_y="97dp"
+        android:background="#FFC8B4"
+        android:text="紅茶/20"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <Button
+        android:id="@+id/btnGreenTea"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_x="43dp"
+        android:layout_y="157dp"
+        android:background="#FFC8B4"
+        android:text="綠茶/20"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/btnMilkTea"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_x="43dp"
+        android:layout_y="217dp"
+        android:background="#FFC8B4"
+        android:text="奶茶/35"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_x="160dp"
+        android:layout_y="97dp"
+        android:background="#FF8888"
+        android:text="1"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_x="230dp"
+        android:layout_y="97dp"
+        android:background="#FF8888"
+        android:text="2"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_x="300dp"
+        android:layout_y="97dp"
+        android:background="#FF8888"
+        android:text="3"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_x="160dp"
+        android:layout_y="157dp"
+        android:background="#FF8888"
+        android:text="4"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_x="230dp"
+        android:layout_y="157dp"
+        android:background="#FF8888"
+        android:text="5"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_x="300dp"
+        android:layout_y="157dp"
+        android:background="#FF8888"
+        android:text="6"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_x="160dp"
+        android:layout_y="217dp"
+        android:background="#FF8888"
+        android:text="7"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_x="230dp"
+        android:layout_y="217dp"
+        android:background="#FF8888"
+        android:text="8"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_x="300dp"
+        android:layout_y="217dp"
+        android:background="#FF8888"
+        android:text="9"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="61dp"
+        android:layout_height="39dp"
+        android:layout_x="198dp"
+        android:layout_y="44dp"
+        android:text="總額"
+        android:textColor="#444444"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="61dp"
+        android:layout_height="39dp"
+        android:layout_x="50dp"
+        android:layout_y="43dp"
+        android:text="單項"
+        android:textColor="#444444"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="61dp"
+        android:layout_height="39dp"
+        android:layout_x="32dp"
+        android:layout_y="291dp"
+        android:text="甜度"
+        android:textColor="#444444"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="42dp"
+        android:layout_height="39dp"
+        android:layout_x="45dp"
+        android:layout_y="335dp"
+        android:text="冰"
+        android:textColor="#444444"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="61dp"
+        android:layout_height="39dp"
+        android:layout_x="65dp"
+        android:layout_y="444dp"
+        android:text="收款"
+        android:textColor="#444444"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <TextView
+        android:id="@+id/lbltotal"
+        android:layout_width="86dp"
+        android:layout_height="41dp"
+        android:layout_x="267dp"
+        android:layout_y="43dp"
+        android:text="0"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <TextView
+        android:id="@+id/lblst2"
+        android:layout_width="77dp"
+        android:layout_height="41dp"
+        android:layout_x="116dp"
+        android:layout_y="43dp"
+        android:text="0"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <EditText
+        android:id="@+id/txtpay"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="441dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_x="33dp"
+        android:layout_y="380dp"
+        android:background="#FFA488"
+        android:text="確認"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <Button
+        android:id="@+id/btnMin"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_x="274dp"
+        android:layout_y="380dp"
+        android:background="#FFA488"
+        android:text="減去"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_x="154dp"
+        android:layout_y="380dp"
+        android:background="#FFA488"
+        android:text="取消"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <RadioGroup
+        android:id="@+id/sweet"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_x="105dp"
+        android:layout_y="292dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="277dp">
+
+        <RadioButton
+            android:id="@+id/rbtn8"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="8分"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbtn5"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5分"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbtn3"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3分"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbtnNo"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="無"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/ice"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_x="107dp"
+        android:layout_y="338dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="325dp">
+
+        <RadioButton
+            android:id="@+id/rbtnless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="少冰"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbtnmicro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="微冰"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbtngowith"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="去冰"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkSale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="260dp"
+        android:layout_y="454dp"
+        android:text="優惠活動"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+</AbsoluteLayout>
+
